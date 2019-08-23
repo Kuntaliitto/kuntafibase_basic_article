@@ -1,0 +1,13 @@
+name: 'kuntafibase basic article'
+type: module
+description: 'Basic article supporting multichannel and multitype content'
+core: 8.x
+package: kuntafibase
+dependencies:
+  - field
+  - kuntafibase_contacts
+  - kuntafibase_core
+  - node
+  - paragraphs
+  - simple_sitemap
+  - text
