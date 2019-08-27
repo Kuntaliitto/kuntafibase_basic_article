@@ -2,24 +2,24 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_municipalities
+    - field.storage.node.field_life_situation
     - node.type.basic_article
-    - taxonomy.vocabulary.municipalities
-id: node.basic_article.field_municipalities
-field_name: field_municipalities
+    - taxonomy.vocabulary.life_situation
+id: node.basic_article.field_life_situation
+field_name: field_life_situation
 entity_type: node
 bundle: basic_article
-label: Municipalities
+label: 'Life situation'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      municipalities: municipalities
+      life_situation: life_situation
     sort:
       field: name
       direction: asc
