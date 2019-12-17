@@ -6,12 +6,15 @@ dependencies:
     - field.field.node.basic_article.body
     - field.field.node.basic_article.field_channel
     - field.field.node.basic_article.field_contact
+    - field.field.node.basic_article.field_life_situation
     - field.field.node.basic_article.field_municipalities
     - field.field.node.basic_article.field_paragraphs
     - field.field.node.basic_article.field_seo_title
     - field.field.node.basic_article.field_subtitle
     - field.field.node.basic_article.field_tags
     - field.field.node.basic_article.field_target_groups
+    - field.field.node.basic_article.field_teaser_media
+    - field.field.node.basic_article.field_teaser_text
     - field.field.node.basic_article.field_type
     - node.type.basic_article
   module:
@@ -38,12 +41,15 @@ content:
 hidden:
   field_channel: true
   field_contact: true
+  field_life_situation: true
   field_municipalities: true
   field_paragraphs: true
   field_seo_title: true
   field_subtitle: true
   field_tags: true
   field_target_groups: true
+  field_teaser_media: true
+  field_teaser_text: true
   field_type: true
   langcode: true
   shariff_field: true

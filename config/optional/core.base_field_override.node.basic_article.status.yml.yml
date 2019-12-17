@@ -2,21 +2,20 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.body
     - node.type.basic_article
-  module:
-    - text
-id: node.basic_article.body
-field_name: body
+id: node.basic_article.status
+field_name: status
 entity_type: node
 bundle: basic_article
-label: Body
+label: Published
 description: ''
 required: false
 translatable: true
-default_value: {  }
+default_value:
+  -
+    value: 0
 default_value_callback: ''
 settings:
-  display_summary: true
-  required_summary: false
-field_type: text_with_summary
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
